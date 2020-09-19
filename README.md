@@ -4,6 +4,8 @@ Material for the course by Damian Kozbur @UZH. The primary reference for introdu
 
 The softwares used in the lectures are [Matlab](https://www.mathworks.com/products/matlab.html) and [Python](https://www.python.org/downloads/). A strongly recommended research is the documentation of the Python library [scikit-learn](https://scikit-learn.org/).
 
+
+
 ### Exercise Sessions
 
 1. OLS Regression, basic properties, and uses
@@ -17,6 +19,8 @@ The softwares used in the lectures are [Matlab](https://www.mathworks.com/produc
 9. Casual forests
 10. Unsupervised learning
 
+
+
 ### Readings
 
 - Athey, S., & Imbens, G. W. (n.d.). *Machine Learning Methods Economists Should Know About*. 62.
@@ -27,3 +31,9 @@ The softwares used in the lectures are [Matlab](https://www.mathworks.com/produc
 - Kleinberg, J., Lakkaraju, H., Leskovec, J., Ludwig, J., & Mullainathan, S. (2017). Human Decisions and Machine Predictions. *The Quarterly Journal of Economics*. https://doi.org/10.1093/qje/qjx032
 - Kleinberg, J., Ludwig, J., Mullainathan, S., & Obermeyer, Z. (2015). Prediction Policy Problems. *American Economic Review*, *105*(5), 491–495. https://doi.org/10.1257/aer.p20151023
 - Mullainathan, S., & Spiess, J. (2017). Machine Learning: An Applied Econometric Approach. *Journal of Economic Perspectives*, *31*(2), 87–106. https://doi.org/10.1257/jep.31.2.87
+
+
+
+### Contacts
+
+If you have any issue or suggestion for the course, please contact me [via mail](mailto:matteo.courthoud@uzh.ch). All feedback is greatly appreciated!

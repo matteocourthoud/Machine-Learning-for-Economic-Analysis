@@ -1,6 +1,6 @@
 # Machine Learning for Economic Analysis 2020
 
-Material for the course by Damian Kozbur @UZH. The primary reference for introductory machine learning concepts and econometrics is Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, “An Introduction to Statistical Learning with Applications in R”, freely available [here](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf).
+Material for the course by [Damian Kozbur](https://www.econ.uzh.ch/en/people/faculty/kozbur.html) @UZH. The primary reference for introductory machine learning concepts and econometrics is Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, “*An Introduction to Statistical Learning with Applications in R*”, freely available [here](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf).
 
 The softwares used in the lectures are [Matlab](https://www.mathworks.com/products/matlab.html) and [Python](https://www.python.org/downloads/). A strongly recommended research is the documentation of the Python library [scikit-learn](https://scikit-learn.org/).
 
@@ -8,7 +8,7 @@ The softwares used in the lectures are [Matlab](https://www.mathworks.com/produc
 
 ### Exercise Sessions
 
-1. OLS Regression, basic properties, and uses
+1. [OLS Regression, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/lecture_3.ipynb)
 2. Instrumental variables definition, basic properties, and uses
 3. Nonparametric regression
 4. Complexity and regularization

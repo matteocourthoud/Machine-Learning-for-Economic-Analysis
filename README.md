@@ -8,7 +8,7 @@ The softwares used in the lectures are [Matlab](https://www.mathworks.com/produc
 
 ### Exercise Sessions
 
-1. [OLS Regression, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/lecture_3.ipynb)
+1. [OLS Regression, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/1_regression.ipynb)
 2. Instrumental variables definition, basic properties, and uses
 3. Nonparametric regression
 4. Complexity and regularization

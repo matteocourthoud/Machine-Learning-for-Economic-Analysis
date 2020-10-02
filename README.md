@@ -46,4 +46,4 @@ These lectures heavily borrow from
 
 ### Contacts
 
-If you have any issue or suggestion for the course, please contact me [via mail](mailto:matteo.courthoud@uzh.ch). All feedback is greatly appreciated!
+If you have any issue or suggestion for the course, please feel free to push edits or contact me [via mail](mailto:matteo.courthoud@uzh.ch). All feedback is greatly appreciated!

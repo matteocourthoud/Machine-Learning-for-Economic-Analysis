@@ -36,7 +36,7 @@ The exercise sessions are entirely coded in [Python](https://www.python.org/down
 
 ### Thanks
 
-These lectures heavily borrow from
+These exercise sessions heavily borrow from
 
 - [Jordi Warmenhoven's](https://github.com/JWarmenhoven) git repo [ISLR-python](https://github.com/JWarmenhoven/ISLR-python)
 - [Quant-Econ](https://quantecon.org/python-lectures/) website

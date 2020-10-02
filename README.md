@@ -2,7 +2,7 @@
 
 Material for the course by [Damian Kozbur](https://www.econ.uzh.ch/en/people/faculty/kozbur.html) @UZH. The primary reference for introductory machine learning concepts and econometrics is Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, “*An Introduction to Statistical Learning with Applications in R*”, freely available [here](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf).
 
-The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. A strongly recommended research is the documentation of the Python library [scikit-learn](https://scikit-learn.org/).
+The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. Recommended free resources are the documentation of the Python library [scikit-learn](https://scikit-learn.org/) and Bruce Hansen's [Econometrics book](https://www.ssc.wisc.edu/~bhansen/econometrics/).
 
 
 

@@ -11,10 +11,10 @@ The exercise sessions are entirely coded in [Python](https://www.python.org/down
 1. [OLS Regression, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/1_regression.ipynb)
 2. [Instrumental variables definition, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/2_iv.ipynb)
 3. [Nonparametric regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/3_nonparametric.ipynb)
-4. Complexity and regularization
+4. [Complexity and regularization](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_regularization.ipynb)
 5. Lasso and forward regression
-6. Convexity and optimization
-7. Neural networks, random forests
+6. [Convexity and optimization](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/6_convexity.ipynb)
+7. [Trees and forests](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/7_trees.ipynb)
 8. Post-double selection
 9. Casual forests
 10. Unsupervised learning
@@ -41,6 +41,7 @@ These exercise sessions heavily borrow from
 - [Jordi Warmenhoven's](https://github.com/JWarmenhoven) git repo [ISLR-python](https://github.com/JWarmenhoven/ISLR-python)
 - [Quant-Econ](https://quantecon.org/python-lectures/) website
 - Prof. [Damian Kozbur](https://www.econ.uzh.ch/en/people/faculty/kozbur.html) past UZH [PhD Econometrics Class](https://matteocourthoud.github.io/econometrics/)
+- UC Berkeley [Convex Optimization and Approximation class](https://ee227c.github.io/) by [Moritz Hardt](http://mrtz.org/)
 
 
 

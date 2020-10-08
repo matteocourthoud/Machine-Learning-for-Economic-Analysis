@@ -41,6 +41,7 @@ These exercise sessions heavily borrow from
 - [Jordi Warmenhoven's](https://github.com/JWarmenhoven) git repo [ISLR-python](https://github.com/JWarmenhoven/ISLR-python)
 - [Quant-Econ](https://quantecon.org/python-lectures/) website
 - Prof. [Damian Kozbur](https://www.econ.uzh.ch/en/people/faculty/kozbur.html) past UZH [PhD Econometrics Class](https://matteocourthoud.github.io/econometrics/)
+- Clark Science Center [Machine Learning couse](http://www.science.smith.edu/~jcrouser/SDS293/)
 - UC Berkeley [Convex Optimization and Approximation class](https://ee227c.github.io/) by [Moritz Hardt](http://mrtz.org/)
 
 

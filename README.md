@@ -16,7 +16,7 @@ The exercise sessions are entirely coded in [Python](https://www.python.org/down
 6. [Convexity and optimization](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/6_convexity.ipynb)
 7. [Trees and forests](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/7_trees.ipynb)
 8. Post-double selection
-9. Casual forests
+9. Causal forests
 10. Unsupervised learning
 
 

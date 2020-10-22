@@ -16,6 +16,8 @@ Students should be familiar with the following concepts:
 	- Econometrics, chapter 2.1-2.25
 - Large Sample Asymptotics
 	- Econometrics, chapter 6.1-6.5
+-  Python basics
+	- [Quant-Econ Tutorial](https://python.quantecon.org/index_learning_python.html)
 
 
 

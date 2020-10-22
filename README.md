@@ -4,14 +4,18 @@ Material for the course by [Damian Kozbur](https://www.econ.uzh.ch/en/people/fac
 
 The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. Recommended free resources are the documentation of the Python library [scikit-learn](https://scikit-learn.org/) and Bruce Hansen's [Econometrics book](https://www.ssc.wisc.edu/~bhansen/econometrics/). 
 
-Pre-requisites: students should be familiar with the following concepts:
+
+
+### Pre-requisites
+
+Students should be familiar with the following concepts:
 
 -  Matrix Algebra
-	- Econometrics, appendix A.(1-10)
+	- Econometrics, appendix A.1-A.10
 - Conditional Expectation and Projection
-	- Econometrics, chapter 2.(1-25)
+	- Econometrics, chapter 2.1-2.25
 - Large Sample Asymptotics
-	- Econometrics, chapter 6.(1-5)
+	- Econometrics, chapter 6.1-6.5
 
 
 
@@ -24,7 +28,7 @@ Pre-requisites: students should be familiar with the following concepts:
 
 2. [Instrumental variables definition, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/2_iv.ipynb)
 
-	- Econometrics, chapter 12.(1-12)
+	- Econometrics, chapter 12.1-12.12
 
 3. [Nonparametric regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/3_nonparametric.ipynb)
 
@@ -38,21 +42,21 @@ Pre-requisites: students should be familiar with the following concepts:
 5. [Lasso and forward regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_regularization.ipynb)
 
 	- ISLR, chapter 6
-	- Econometrics, chapter 29.(2-5)
+	- Econometrics, chapter 29.2-29.5
 	
 6. [Convexity and optimization](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/6_convexity.ipynb)
 
 7. [Trees and forests](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/7_trees.ipynb)
 
 	- ISLR, chapter 8
-	- Econometrics, chapter 29.(6-9)
+	- Econometrics, chapter 29.6-29.9
 	
 8. [Post-double selection](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/8_postdoubleselection.ipynb)
 
 	- Econometrics, chapter 3.18
 	- Belloni, Chen, Chernozhukov, Hansen (2012)
 	- Belloni, Chernozhukov, Hansen (2014)
-	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins, (2018)
+	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins (2018)
 	
 9. Causal forests
 

@@ -32,22 +32,25 @@ Pre-requisites: students should be familiar with the following concepts:
 	- Econometrics, chapters 19 & 20
 
 4. [Cross-validation](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_crossvalidation.ipynb)
-- ISLR, chapter 5
+
+	- ISLR, chapter 5
 	
 5. [Lasso and forward regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_regularization.ipynb)
-- ISLR, chapter 6
+
+	- ISLR, chapter 6
 	- Econometrics, chapter 29.(2-5)
 	
 6. [Convexity and optimization](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/6_convexity.ipynb)
 
 7. [Trees and forests](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/7_trees.ipynb)
-- ISLR, chapter 8
+
+	- ISLR, chapter 8
 	- Econometrics, chapter 29.(6-9)
 	
 8. [Post-double selection](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/8_postdoubleselection.ipynb)
-- Econometrics, chapter 3.18
-	
-- Belloni, Chen, Chernozhukov, Hansen (2012)
+
+	- Econometrics, chapter 3.18
+	- Belloni, Chen, Chernozhukov, Hansen (2012)
 	- Belloni, Chernozhukov, Hansen (2014)
 	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins, (2018)
 	
@@ -56,7 +59,8 @@ Pre-requisites: students should be familiar with the following concepts:
 	- Wager, Athey (2018)
 
 10. [Unsupervised learning](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/10_unsupervised.ipynb)
-- ISLR, chapter 10
+
+	- ISLR, chapter 10
 
 
 

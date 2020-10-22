@@ -34,11 +34,10 @@ Pre-requisites: students should be familiar with the following concepts:
 4. [Cross-validation](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_crossvalidation.ipynb)
 - ISLR, chapter 5
 	
-5. Lasso and forward regression(https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_regularization.ipynb)
-
-	- ISLR, chapter 6
+5. [Lasso and forward regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_regularization.ipynb)
+- ISLR, chapter 6
 	- Econometrics, chapter 29.(2-5)
-
+	
 6. [Convexity and optimization](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/6_convexity.ipynb)
 
 7. [Trees and forests](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/7_trees.ipynb)
@@ -56,7 +55,7 @@ Pre-requisites: students should be familiar with the following concepts:
 
 	- Wager, Athey (2018)
 
-10. [Unsupervised learning(https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/10_unsupervised.ipynb)
+10. [Unsupervised learning](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/10_unsupervised.ipynb)
 - ISLR, chapter 10
 
 

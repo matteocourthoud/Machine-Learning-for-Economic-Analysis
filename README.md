@@ -94,6 +94,7 @@ These exercise sessions heavily borrow from
 - Prof. [Damian Kozbur](https://www.econ.uzh.ch/en/people/faculty/kozbur.html) past UZH [PhD Econometrics Class](https://matteocourthoud.github.io/econometrics/)
 - Clark Science Center [Machine Learning couse](http://www.science.smith.edu/~jcrouser/SDS293/)
 - UC Berkeley [Convex Optimization and Approximation class](https://ee227c.github.io/) by [Moritz Hardt](http://mrtz.org/)
+- [Morvan Zhou](https://github.com/MorvanZhou/) and [Yunjey Choi](https://github.com/yunjey/) [pytorch](https://github.com/MorvanZhou/PyTorch-Tutorial) [tutorials](https://github.com/yunjey/pytorch-tutorial)
 
 
 

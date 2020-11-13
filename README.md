@@ -24,45 +24,49 @@ Students should be familiar with the following concepts:
 ### Exercise Sessions
 
 1. [OLS Regression, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/1_regression.ipynb)
-
 	- ISLR, chapter 3
 	- ESL, chapter 3
-- Econometrics, chapters 3 and 4
+	- Econometrics, chapters 3 and 4
+
 2. [Instrumental variables definition, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/2_iv.ipynb)
-
 	- Econometrics, chapter 12.1-12.12
-3. [Nonparametric regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/3_nonparametric.ipynb)
 
+3. [Nonparametric regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/3_nonparametric.ipynb)
 	- ISLR, chapter 7
 	- ESL, chapter 5
-- Econometrics, chapters 19 and 20
-4. [Cross-validation](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_crossvalidation.ipynb)
+	- Econometrics, chapters 19 and 20
 
+4. [Cross-validation](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_crossvalidation.ipynb)
 	- ISLR, chapter 5
 	- ESL, chapter 7
-5. [Lasso and forward regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_regularization.ipynb)
 
+5. [Lasso and forward regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/4_regularization.ipynb)
 	- ISLR, chapter 6
 	- ESL, chapters 3 and 18
 	- Econometrics, chapter 29.2-29.5
+
 6. [Convexity and optimization](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/6_convexity.ipynb)
+
 7. [Trees and forests](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/7_trees.ipynb)
-- ISLR, chapter 8
+	- ISLR, chapter 8
 	- ESL, chapters 9, 10, 15, 16
 	- Econometrics, chapter 29.6-29.9
+
 8. [Neural Networks](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/8_neuralnets.ipynb)
 	- ESL, chapter 11
-9. [Post-double selection](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/9_postdoubleselection.ipynb)
-  - Econometrics, chapter 3.18
-  - Belloni, Chen, Chernozhukov, Hansen (2012)
-  - Belloni, Chernozhukov, Hansen (2014)
-  - Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins (2018)
-10. Causal forests
 
-  - Wager, Athey (2018)
+9. [Post-double selection](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/9_postdoubleselection.ipynb)
+  	- Econometrics, chapter 3.18
+  	- Belloni, Chen, Chernozhukov, Hansen (2012)
+  	- Belloni, Chernozhukov, Hansen (2014)
+  	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins (2018)
+
+10. Causal forests
+  	- Wager, Athey (2018)
+
 11. [Unsupervised learning](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/11_unsupervised.ipynb)
-   - ISLR, chapter 10
-   - ESL, chapter 14
+   	- ISLR, chapter 10
+   	- ESL, chapter 14
 
 
 

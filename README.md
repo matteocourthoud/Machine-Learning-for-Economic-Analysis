@@ -95,6 +95,7 @@ These exercise sessions heavily borrow from
 - Clark Science Center [Machine Learning couse](http://www.science.smith.edu/~jcrouser/SDS293/)
 - UC Berkeley [Convex Optimization and Approximation class](https://ee227c.github.io/) by [Moritz Hardt](http://mrtz.org/)
 - [Morvan Zhou](https://github.com/MorvanZhou/) and [Yunjey Choi](https://github.com/yunjey/) [pytorch](https://github.com/MorvanZhou/PyTorch-Tutorial) [tutorials](https://github.com/yunjey/pytorch-tutorial)
+- [Daniel Godoy](https://medium.com/@dvgodoy) excellent article on Pytorch in [Medium's towardsdatascience](https://towardsdatascience.com/understanding-pytorch-with-an-example-a-step-by-step-tutorial-81fc5f8c4e8e)
 
 
 

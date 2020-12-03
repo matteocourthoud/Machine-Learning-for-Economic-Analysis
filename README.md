@@ -62,8 +62,8 @@ Students should be familiar with the following concepts:
   	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins (2018)
 
 10. [Unsupervised learning](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/10_unsupervised.ipynb)
-  - ISLR, chapter 10
-  - ESL, chapter 14
+  	- ISLR, chapter 10
+  	- ESL, chapter 14
 
 
 

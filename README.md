@@ -61,12 +61,10 @@ Students should be familiar with the following concepts:
   	- Belloni, Chernozhukov, Hansen (2014)
   	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins (2018)
 
-10. Causal forests
-  	- Wager, Athey (2018)
+10. [Unsupervised learning](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/10_unsupervised.ipynb)
+  - ISLR, chapter 10
+  - ESL, chapter 14
 
-11. [Unsupervised learning](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/11_unsupervised.ipynb)
-   	- ISLR, chapter 10
-   	- ESL, chapter 14
 
 
 

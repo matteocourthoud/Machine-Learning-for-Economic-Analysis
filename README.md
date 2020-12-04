@@ -23,12 +23,12 @@ Students should be familiar with the following concepts:
 
 ### Exercise Sessions
 
-1. [OLS Regression, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/1_regression.ipynb)
+1. [OLS Regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/1_regression.ipynb)
 	- ISLR, chapter 3
 	- ESL, chapter 3
 	- Econometrics, chapters 3 and 4
 
-2. [Instrumental variables definition, basic properties, and uses](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/2_iv.ipynb)
+2. [Instrumental variables](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/2_iv.ipynb)
 	- Econometrics, chapter 12.1-12.12
 
 3. [Nonparametric regression](https://nbviewer.jupyter.org/github/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/blob/master/3_nonparametric.ipynb)

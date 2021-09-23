@@ -4,6 +4,8 @@ Material for the course by [Damian Kozbur](https://www.econ.uzh.ch/en/people/fac
 
 The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. Recommended free resources are the documentation of the Python library [scikit-learn](https://scikit-learn.org/) and Bruce Hansen's [Econometrics book](https://www.ssc.wisc.edu/~bhansen/econometrics/). 
 
+The code is publicly available on Github: https://github.com/matteocourthoud/Machine-Learning-for-Economic-Analysis
+
 
 
 ### Pre-requisites
@@ -23,46 +25,46 @@ Students should be familiar with the following concepts:
 
 ### Exercise Sessions
 
-1. [OLS Regression](https://matteocourthoud.github.io/course/1-regression)
+1. [OLS Regression](https://matteocourthoud.github.io/course/ml-econ/1-regression/)
    - ISLR, chapter 3
    - ESL, chapter 3
    - Econometrics, chapters 3 and 4
 
-2. [Instrumental variables](https://matteocourthoud.github.io/course/2-iv)
+2. [Instrumental variables](https://matteocourthoud.github.io/course/ml-econ/2-iv/)
    - Econometrics, chapter 12.1-12.12
 
-3. [Nonparametric regression](https://matteocourthoud.github.io/course/3-nonparametric)
+3. [Nonparametric regression](https://matteocourthoud.github.io/course/ml-econ/3-nonparametric/)
    - ISLR, chapter 7
    - ESL, chapter 5
    - Econometrics, chapters 19 and 20
 
-4. [Cross-validation](https://matteocourthoud.github.io/course/4-crossvalidation)
+4. [Cross-validation](https://matteocourthoud.github.io/course/ml-econ/4-crossvalidation/)
    - ISLR, chapter 5
    - ESL, chapter 7
 
-5. [Lasso and forward regression](https://matteocourthoud.github.io/course/5-lasso)
+5. [Lasso and forward regression](https://matteocourthoud.github.io/course/ml-econ/5-lasso/)
    - ISLR, chapter 6
    - ESL, chapters 3 and 18
    - Econometrics, chapter 29.2-29.5
 
-6. [Convexity and optimization](https://matteocourthoud.github.io/course/6-convexity)
+6. [Convexity and optimization](https://matteocourthoud.github.io/course/ml-econ/6-convexity/)
 
-7. [Trees and forests](https://matteocourthoud.github.io/course/7-trees)
+7. [Trees and forests](https://matteocourthoud.github.io/course/ml-econ/7-trees/)
    - ISLR, chapter 8
    - ESL, chapters 9, 10, 15, 16
    - Econometrics, chapter 29.6-29.9
 
-8. [Neural Networks](https://matteocourthoud.github.io/course/8-neuralnets)
+8. [Neural Networks](https://matteocourthoud.github.io/course/ml-econ/8-neuralnets/)
    - ESL, chapter 11
 
-9. [Post-double selection](https://matteocourthoud.github.io/course/9-postdoubleselection)
+9. [Post-double selection](https://matteocourthoud.github.io/course/ml-econ/9-postdoubleselection/)
 
   	- Econometrics, chapter 3.18
   	- Belloni, Chen, Chernozhukov, Hansen (2012)
   	- Belloni, Chernozhukov, Hansen (2014)
   	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins (2018)
 
-10. [Unsupervised learning](https://matteocourthoud.github.io/course/10-unsupervised)
+10. [Unsupervised learning](https://matteocourthoud.github.io/course/ml-econ/10-unsupervised/)
 
   	- ISLR, chapter 10
   	- ESL, chapter 14

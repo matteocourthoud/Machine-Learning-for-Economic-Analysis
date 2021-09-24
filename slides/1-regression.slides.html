@@ -13220,7 +13220,6 @@ a.anchor-link {
 <li><a href="#/24">Multiple Linear Regression</a></li>
 <li><a href="#/32">Other Considerations in the Regression Model</a></li>
 </ul>
-<p>On browser: use arrow down to look at code.</p>
 
 </div>
 </div>
@@ -14175,6 +14174,7 @@ $$</p>
 
     <span class="c1"># Init figure</span>
     <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Role of the Intercept&#39;</span><span class="p">)</span>
 
     <span class="c1"># Add new line on the previous plot</span>
     <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">advertising</span><span class="o">.</span><span class="n">TV</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">advertising</span><span class="o">.</span><span class="n">Sales</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">order</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ci</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">scatter_kws</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span><span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="s1">&#39;s&#39;</span><span class="p">:</span><span class="mi">9</span><span class="p">})</span>

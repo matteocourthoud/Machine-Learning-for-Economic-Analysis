@@ -4,11 +4,55 @@ Material for the course by [Damian Kozbur](https://www.econ.uzh.ch/en/people/fac
 
 The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. Recommended free resources are the documentation of the Python library [scikit-learn](https://scikit-learn.org/) and Bruce Hansen's [Econometrics book](https://www.ssc.wisc.edu/~bhansen/econometrics/). 
 
-The code is publicly available on Github: https://github.com/matteocourthoud/Machine-Learning-for-Economic-Analysis
+## Exercise Sessions
+
+1. [OLS Regression](https://matteocourthoud.github.io/course/ml-econ/01_regression/)
+   - ISLR, chapter 3
+   - ESL, chapter 3
+   - Econometrics, chapters 3 and 4
+
+2. [Instrumental Variables](https://matteocourthoud.github.io/course/ml-econ/02_iv/)
+   - Econometrics, chapter 12.1-12.12
+
+3. [Nonparametric Regression](https://matteocourthoud.github.io/course/ml-econ/03_nonparametric/)
+   - ISLR, chapter 7
+   - ESL, chapter 5
+   - Econometrics, chapters 19 and 20
+
+4. [Cross-Validation](https://matteocourthoud.github.io/course/ml-econ/04_crossvalidation/)
+   - ISLR, chapter 5
+   - ESL, chapter 7
+
+5. [Lasso and Forward Regression](https://matteocourthoud.github.io/course/ml-econ/05_lasso/)
+   - ISLR, chapter 6
+   - ESL, chapters 3 and 18
+   - Econometrics, chapter 29.2-29.5
+
+6. [Convexity and Optimization](https://matteocourthoud.github.io/course/ml-econ/06_convexity/)
+
+7. [Trees and Forests](https://matteocourthoud.github.io/course/ml-econ/07_trees/)
+   - ISLR, chapter 8
+   - ESL, chapters 9, 10, 15, 16
+   - Econometrics, chapter 29.6-29.9
+
+8. [Neural Networks](https://matteocourthoud.github.io/course/ml-econ/08_neuralnets/)
+   - ESL, chapter 11
+
+9. [Post-Double Selection](https://matteocourthoud.github.io/course/ml-econ/09_postdoubleselection/)
+
+  	- Econometrics, chapter 3.18
+  	- Belloni, Chen, Chernozhukov, Hansen (2012)
+  	- Belloni, Chernozhukov, Hansen (2014)
+  	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins (2018)
+
+10. [Unsupervised Learning](https://matteocourthoud.github.io/course/ml-econ/10-unsupervised/)
+
+  	- ISLR, chapter 10
+  	- ESL, chapter 14
 
 
 
-### Pre-requisites
+## Pre-requisites
 
 Students should be familiar with the following concepts:
 
@@ -23,56 +67,8 @@ Students should be familiar with the following concepts:
 
 
 
-### Exercise Sessions
 
-1. [OLS Regression](https://matteocourthoud.github.io/course/ml-econ/1-regression/)
-   - ISLR, chapter 3
-   - ESL, chapter 3
-   - Econometrics, chapters 3 and 4
-
-2. [Instrumental variables](https://matteocourthoud.github.io/course/ml-econ/2-iv/)
-   - Econometrics, chapter 12.1-12.12
-
-3. [Nonparametric regression](https://matteocourthoud.github.io/course/ml-econ/3-nonparametric/)
-   - ISLR, chapter 7
-   - ESL, chapter 5
-   - Econometrics, chapters 19 and 20
-
-4. [Cross-validation](https://matteocourthoud.github.io/course/ml-econ/4-crossvalidation/)
-   - ISLR, chapter 5
-   - ESL, chapter 7
-
-5. [Lasso and forward regression](https://matteocourthoud.github.io/course/ml-econ/5-lasso/)
-   - ISLR, chapter 6
-   - ESL, chapters 3 and 18
-   - Econometrics, chapter 29.2-29.5
-
-6. [Convexity and optimization](https://matteocourthoud.github.io/course/ml-econ/6-convexity/)
-
-7. [Trees and forests](https://matteocourthoud.github.io/course/ml-econ/7-trees/)
-   - ISLR, chapter 8
-   - ESL, chapters 9, 10, 15, 16
-   - Econometrics, chapter 29.6-29.9
-
-8. [Neural Networks](https://matteocourthoud.github.io/course/ml-econ/8-neuralnets/)
-   - ESL, chapter 11
-
-9. [Post-double selection](https://matteocourthoud.github.io/course/ml-econ/9-postdoubleselection/)
-
-  	- Econometrics, chapter 3.18
-  	- Belloni, Chen, Chernozhukov, Hansen (2012)
-  	- Belloni, Chernozhukov, Hansen (2014)
-  	- Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey, Robins (2018)
-
-10. [Unsupervised learning](https://matteocourthoud.github.io/course/ml-econ/10-unsupervised/)
-
-  	- ISLR, chapter 10
-  	- ESL, chapter 14
-
-
-
-
-### Readings
+## Readings
 
 - Athey, S., & Imbens, G. W. (n.d.). *Machine Learning Methods Economists Should Know About*. 62.
 - Belloni, A., Chen, H., Chernozhukov, V., & Hansen, C. B. (2012). Sparse Models and Methods for Optimal Instruments With an Application to Eminent Domain. *Econometrica*, *80*(6), 2369–2429. https://doi.org/10.3982/ECTA9626
@@ -87,7 +83,7 @@ Students should be familiar with the following concepts:
 
 
 
-### Thanks
+## Thanks
 
 These exercise sessions heavily borrow from
 
@@ -101,6 +97,6 @@ These exercise sessions heavily borrow from
 
 
 
-### Contacts
+## Contacts
 
 If you have any issue or suggestion for the course, please feel free to [pull edits](https://github.com/matteocourthoud/Machine-Learning-for-Economic-Analysis-2020/pulls) or contact me [via mail](mailto:matteo.courthoud@uzh.ch). All feedback is greatly appreciated!

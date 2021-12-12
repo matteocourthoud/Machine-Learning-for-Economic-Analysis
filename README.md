@@ -23,7 +23,7 @@ The exercise sessions are entirely coded in [Python](https://www.python.org/down
    - ISLR, chapter 5
    - ESL, chapter 7
 
-5. [Lasso and Forward Regression](https://matteocourthoud.github.io/course/ml-econ/05_lasso/)
+5. [Lasso and Forward Regression](https://matteocourthoud.github.io/course/ml-econ/05_regularization/)
    - ISLR, chapter 6
    - ESL, chapters 3 and 18
    - Econometrics, chapter 29.2-29.5

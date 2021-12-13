@@ -10,7 +10,7 @@ Please, if you find any typos or mistakes, [open a new issue](https://help.githu
 
 
 
-## Lectures
+## Content
 
 1. [OLS Regression](https://matteocourthoud.github.io/course/ml-econ/01_regression/)
    - ISLR, chapter 3

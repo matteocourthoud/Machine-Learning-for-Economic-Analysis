@@ -1,10 +1,14 @@
 # Machine Learning for Economic Analysis
 
-Material for the course by [Damian Kozbur](https://www.econ.uzh.ch/en/people/faculty/kozbur.html) @UZH. The primary reference for introductory machine learning concepts and econometrics is Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, “*An Introduction to Statistical Learning with Applications in R*”, freely available [here](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf). For an advanced analysis of the topics, the recommended book is "*The Elements of Statistical Learning*" by Trevor Hastie, Robert Tibshirani, Jerome Friedman freely available [here](https://web.stanford.edu/~hastie/ElemStatLearn/).
+⚠️ **WORK IN PROGRESS!** ⚠️
 
-The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. Recommended free resources are the documentation of the Python library [scikit-learn](https://scikit-learn.org/) and Bruce Hansen's [Econometrics book](https://www.ssc.wisc.edu/~bhansen/econometrics/). 
+Welcome to my notes for the Machine Learning for Economic Analysis course by [Damian Kozbur](https://www.econ.uzh.ch/en/people/faculty/kozbur.html) @UZH. The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. The examples heavily borrow from [*Elements of Statistical Learning*](https://hastie.su.domains/Papers/ESLII.pdf) by Hastie, Tibshirani, Friedman. Other recommended free resources are the documentation of the Python library [scikit-learn](https://scikit-learn.org/) and Bruce Hansen's [*Econometrics*](https://www.ssc.wisc.edu/~bhansen/econometrics/) book.
 
-## Exercise Sessions
+Please, if you find any typos or mistakes, [open a new issue](https://help.github.com/articles/creating-an-issue/). Or even better, fork the repo and [submit a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). I am happy to share my work and I am even happier if it can be useful.
+
+
+
+## Lectures
 
 1. [OLS Regression](https://matteocourthoud.github.io/course/ml-econ/01_regression/)
    - ISLR, chapter 3

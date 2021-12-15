@@ -13503,8 +13503,7 @@ $$<p>where $x_i,z_i,\varepsilon_i \sim N(0,1)$ and $n=1000$.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="9.2-Omitted-Variable-Bias">9.2 Omitted Variable Bias<a class="anchor-link" href="#9.2-Omitted-Variable-Bias">&#182;</a></h2><p><a href="#/1"><em>back to index</em></a></p>
-
+<h2 id="9.2-Omitted-Variable-Bias">9.2 Omitted Variable Bias<a class="anchor-link" href="#9.2-Omitted-Variable-Bias">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13516,7 +13515,7 @@ $$
 y_i = x_i' \alpha_0+ z_i' \beta_0 + \varepsilon_i
 $$<p>Define the corresponding <strong>short regression</strong> as</p>
 $$
-  y_i = x_i' \alpha_0 + v_i \quad \text{ with } \quad x_i = z_i' \beta_0 + u_i
+y_i = x_i' \alpha_0 + v_i \quad \text{ with } \quad x_i = z_i' \gamma_0 + u_i
 $$
 </div>
 </div>
@@ -13677,8 +13676,7 @@ Expected bias:  -0.0900
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="9.3-Pre-test-bias">9.3 Pre-test bias<a class="anchor-link" href="#9.3-Pre-test-bias">&#182;</a></h2><p><a href="#/1"><em>back to index</em></a></p>
-
+<h2 id="9.3-Pre-Test-Bias">9.3 Pre-Test Bias<a class="anchor-link" href="#9.3-Pre-Test-Bias">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13944,9 +13942,9 @@ Mean alpha Pre-test = 0.9925
 <ul>
 <li><p>when $\beta_0$ is very large: in this case the test always rejects the null hypothesis $H_0 : \beta_0=0$ and we always run the correct specification, i.e. the long regression</p>
 </li>
-<li><p>when $\beta_0$ is very small: in this case the test has very little power. However, as we saw from the Omitted Varaible Bias formula, the bias is small.</p>
+<li><p>when $\beta_0$ is very small: in this case the test has very little power. However, as we saw from the Omitted Variable Bias formula, the bias is small.</p>
 </li>
-<li><p>when $\gamma_0$ is very small: also in this case the test has very little power. However, as we saw from the Omitted Varaible Bias formula, the bias is small.</p>
+<li><p>when $\gamma_0$ is very small: also in this case the test has very little power. However, as we saw from the Omitted Variable Bias formula, the bias is small.</p>
 </li>
 </ul>
 
@@ -13974,7 +13972,7 @@ Mean alpha Pre-test = 0.9925
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">b_</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">b_sequence</span><span class="p">):</span>
     <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;beta = </span><span class="si">%.2f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">b_</span>
     <span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">=</span> <span class="n">pre_testing</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b_</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">n</span><span class="p">)[</span><span class="s1">&#39;Pre-test&#39;</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean with beta=</span><span class="si">%.2f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">b_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean alpha with beta=</span><span class="si">%.2f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">b_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
 </pre></div>
 
     </div>
@@ -13991,10 +13989,10 @@ Mean alpha Pre-test = 0.9925
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Mean with beta=-0.03: 0.9926
-Mean with beta=-0.09: 0.9826
-Mean with beta=-0.30: 0.9925
-Mean with beta=-0.90: 0.9994
+<pre>Mean alpha with beta=-0.03: 0.9926
+Mean alpha with beta=-0.09: 0.9826
+Mean alpha with beta=-0.30: 0.9925
+Mean alpha with beta=-0.90: 0.9994
 </pre>
 </div>
 </div>
@@ -14069,7 +14067,7 @@ Mean with beta=-0.90: 0.9994
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">n_</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">n_sequence</span><span class="p">):</span>
     <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;n = </span><span class="si">%.0f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">n_</span>
     <span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">=</span> <span class="n">pre_testing</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">n_</span><span class="p">)[</span><span class="s1">&#39;Pre-test&#39;</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean with n=</span><span class="si">%.0f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean alpha with n=</span><span class="si">%.0f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
 </pre></div>
 
     </div>
@@ -14086,10 +14084,10 @@ Mean with beta=-0.90: 0.9994
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Mean with n=100: 0.9442
-Mean with n=300: 0.9635
-Mean with n=1000: 0.9925
-Mean with n=3000: 0.9989
+<pre>Mean alpha with n=100: 0.9442
+Mean alpha with n=300: 0.9635
+Mean alpha with n=1000: 0.9925
+Mean alpha with n=3000: 0.9989
 </pre>
 </div>
 </div>
@@ -14151,7 +14149,7 @@ Mean with n=3000: 0.9989
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We now look at what happens in the simulations when $beta_0$ is proportional to $\frac{1}{\sqrt{n}}$.</p>
+<p>We now look at what happens in the simulations when $\beta_0$ is proportional to $\frac{1}{\sqrt{n}}$.</p>
 
 </div>
 </div>
@@ -14169,7 +14167,7 @@ Mean with n=3000: 0.9989
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">n_</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">n_sequence</span><span class="p">):</span>
     <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;n = </span><span class="si">%.0f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">n_</span>
     <span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">=</span> <span class="n">pre_testing</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">beta</span><span class="p">[</span><span class="n">k</span><span class="p">],</span> <span class="n">c</span><span class="p">,</span> <span class="n">n_</span><span class="p">)[</span><span class="s1">&#39;Pre-test&#39;</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean with n=</span><span class="si">%.0f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean alpha with n=</span><span class="si">%.0f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
 </pre></div>
 
     </div>
@@ -14186,10 +14184,10 @@ Mean with n=3000: 0.9989
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Mean with n=100: 0.9703
-Mean with n=300: 0.9838
-Mean with n=1000: 0.9914
-Mean with n=3000: 0.9947
+<pre>Mean alpha with n=100: 0.9703
+Mean alpha with n=300: 0.9838
+Mean alpha with n=1000: 0.9914
+Mean alpha with n=3000: 0.9947
 </pre>
 </div>
 </div>
@@ -14237,7 +14235,7 @@ Mean with n=3000: 0.9947
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Note that the estimator is consistent. But confidence interval coverage is wrong.</p>
+<p>Now the distribution of $\hat \alpha$ does not converge to a normal when the sample size increases.</p>
 
 </div>
 </div>
@@ -14245,7 +14243,7 @@ Mean with n=3000: 0.9947
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Pre-testing-and-Machine-Learning">Pre-testing and Machine Learning<a class="anchor-link" href="#Pre-testing-and-Machine-Learning">&#182;</a></h3>
+<h3 id="Pre-Testing-and-Machine-Learning">Pre-Testing and Machine Learning<a class="anchor-link" href="#Pre-Testing-and-Machine-Learning">&#182;</a></h3>
 </div>
 </div>
 </div><div class="fragment">
@@ -14267,8 +14265,7 @@ Mean with n=3000: 0.9947
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="9.4-Post-double-selection">9.4 Post-double selection<a class="anchor-link" href="#9.4-Post-double-selection">&#182;</a></h2><p><a href="#/1"><em>back to index</em></a></p>
-
+<h2 id="9.4-Post-Double-Selection">9.4 Post-Double Selection<a class="anchor-link" href="#9.4-Post-Double-Selection">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
@@ -14508,7 +14505,7 @@ Mean alpha Post-double = 0.9994
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">b_</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">b_sequence</span><span class="p">):</span>
     <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;beta = </span><span class="si">%.2f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">b_</span>
     <span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">=</span> <span class="n">post_double_selection</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b_</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">n</span><span class="p">)[</span><span class="s1">&#39;Post-double&#39;</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean with beta=</span><span class="si">%.2f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">b_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean alpha with beta=</span><span class="si">%.2f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">b_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
 </pre></div>
 
     </div>
@@ -14525,10 +14522,10 @@ Mean alpha Post-double = 0.9994
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Mean with beta=-0.03: 0.9994
-Mean with beta=-0.09: 0.9994
-Mean with beta=-0.30: 0.9994
-Mean with beta=-0.90: 0.9994
+<pre>Mean alpha with beta=-0.03: 0.9994
+Mean alpha with beta=-0.09: 0.9994
+Mean alpha with beta=-0.30: 0.9994
+Mean alpha with beta=-0.90: 0.9994
 </pre>
 </div>
 </div>
@@ -14602,7 +14599,7 @@ Mean with beta=-0.90: 0.9994
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">n_</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">n_sequence</span><span class="p">):</span>
     <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;N = </span><span class="si">%.0f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">n_</span>
     <span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">=</span> <span class="n">post_double_selection</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">n_</span><span class="p">)[</span><span class="s1">&#39;Post-double&#39;</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean with n=</span><span class="si">%.0f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean alpha with n=</span><span class="si">%.0f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
 </pre></div>
 
     </div>
@@ -14619,10 +14616,10 @@ Mean with beta=-0.90: 0.9994
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Mean with n=100: 0.9964
-Mean with n=300: 0.9985
-Mean with n=1000: 0.9994
-Mean with n=3000: 0.9990
+<pre>Mean alpha with n=100: 0.9964
+Mean alpha with n=300: 0.9985
+Mean alpha with n=1000: 0.9994
+Mean alpha with n=3000: 0.9990
 </pre>
 </div>
 </div>
@@ -14696,7 +14693,7 @@ Mean with n=3000: 0.9990
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">n_</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">n_sequence</span><span class="p">):</span>
     <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;N = </span><span class="si">%.0f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">n_</span>
     <span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">=</span> <span class="n">post_double_selection</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">beta</span><span class="p">[</span><span class="n">k</span><span class="p">],</span> <span class="n">c</span><span class="p">,</span> <span class="n">n_</span><span class="p">)[</span><span class="s1">&#39;Post-double&#39;</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean with n=</span><span class="si">%.0f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Mean alpha with n=</span><span class="si">%.0f</span><span class="s1">: </span><span class="si">%.4f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n_</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">alpha</span><span class="p">[</span><span class="n">label</span><span class="p">])))</span>
 </pre></div>
 
     </div>
@@ -14713,10 +14710,10 @@ Mean with n=3000: 0.9990
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Mean with n=100: 0.9964
-Mean with n=300: 0.9985
-Mean with n=1000: 0.9994
-Mean with n=3000: 0.9990
+<pre>Mean alpha with n=100: 0.9964
+Mean alpha with n=300: 0.9985
+Mean alpha with n=1000: 0.9994
+Mean alpha with n=3000: 0.9990
 </pre>
 </div>
 </div>
@@ -14792,8 +14789,7 @@ Mean with n=3000: 0.9990
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="9.5-Double/debiased-machine-learning">9.5 Double/debiased machine learning<a class="anchor-link" href="#9.5-Double/debiased-machine-learning">&#182;</a></h2><p><a href="#/1"><em>back to index</em></a></p>
-
+<h2 id="9.5-Double/debiased-Machine-Learning">9.5 Double/debiased Machine Learning<a class="anchor-link" href="#9.5-Double/debiased-Machine-Learning">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
@@ -15468,7 +15464,7 @@ $$
 Lasso    : -8.7963
 Tree     : 1.2879
 Forest   : 2.4938
-Boosting : 0.5977
+Boosting : 0.5976
 </pre>
 </div>
 </div>
@@ -15549,7 +15545,7 @@ Boosting : 0.5977
 Lasso    : 1.2511
 Tree     : 0.9605
 Forest   : 0.5325
-Boosting : 1.0332
+Boosting : 1.0327
 </pre>
 </div>
 </div>

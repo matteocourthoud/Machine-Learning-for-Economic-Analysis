@@ -13210,10 +13210,25 @@ a.anchor-link {
 <h1 id="Session-4:-Resampling-Methods">Session 4: Resampling Methods<a class="anchor-link" href="#Session-4:-Resampling-Methods">&#182;</a></h1>
 </div>
 </div>
-</div></section><section>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Remove warnings</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import</span>
@@ -13221,8 +13236,6 @@ a.anchor-link {
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 <span class="kn">import</span> <span class="nn">time</span>
-<span class="kn">import</span> <span class="nn">warnings</span>
-<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
 
 <span class="kn">from</span> <span class="nn">numpy.linalg</span> <span class="kn">import</span> <span class="n">inv</span>
 <span class="kn">from</span> <span class="nn">numpy.random</span> <span class="kn">import</span> <span class="n">normal</span>
@@ -13240,7 +13253,7 @@ a.anchor-link {
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import matplotlib for graphs</span>
@@ -13274,8 +13287,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.1-Cross-Validation">4.1 Cross-Validation<a class="anchor-link" href="#4.1-Cross-Validation">&#182;</a></h2><p><a href="#/1"><em>go to index</em></a></p>
-
+<h2 id="4.1-Cross-Validation">4.1 Cross-Validation<a class="anchor-link" href="#4.1-Cross-Validation">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13297,7 +13309,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load car dataset</span>
@@ -13315,7 +13327,7 @@ a.anchor-link {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -13427,7 +13439,7 @@ a.anchor-link {
 <h3 id="The-Validation-Set-Approach">The Validation Set Approach<a class="anchor-link" href="#The-Validation-Set-Approach">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment">
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13441,10 +13453,10 @@ a.anchor-link {
 
 </div>
 </div>
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Cross-validation function for polynomials</span>
@@ -13483,7 +13495,7 @@ a.anchor-link {
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Init</span>
@@ -13513,7 +13525,7 @@ a.anchor-link {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Time elapsed: 0.0266 seconds
+<pre>Time elapsed: 0.0277 seconds
 </pre>
 </div>
 </div>
@@ -13533,7 +13545,7 @@ a.anchor-link {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Figure 5.2</span>
@@ -13567,7 +13579,7 @@ a.anchor-link {
 </aside><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">make_figure_5_2</span><span class="p">()</span>
@@ -13603,7 +13615,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This figure illustrates a <strong>first drawback</strong> of the validation approach: the estimate of the test error rate can be highly variable, depending on pre- cisely which observations are included in the training set and which observations are included in the validation set.</p>
+<p>This figure illustrates a <strong>first drawback</strong> of the validation approach: the estimate of the test error rate can be highly variable, depending on precisely which observations are included in the training set and which observations are included in the validation set.</p>
 <p>The <strong>second drawback</strong> of the validation approach is that only a subset of the observations—those that are included in the training set rather than in the validation set—are used to fit the model. Since statistical methods tend to per- form worse when trained on fewer observations, this suggests that the validation set error rate may tend to overestimate the test error rate for the model fit on the entire data set.</p>
 
 </div>
@@ -13619,7 +13631,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Leave-one-out cross-validation (LOOCV) ttempts to address that method’s drawbacks.</p>
+<p>Leave-one-out cross-validation (LOOCV) attempts to address that method’s drawbacks.</p>
 <p>Like the validation set approach, LOOCV involves splitting the set of observations into two parts. However, instead of creating two subsets of comparable size, a single observation $i$ is used for the validation set, and the remaining $n-1$ observations make up the training set. The statistical learning method is fit on the $n−1$ training observations and the MSE is computed using the excluded observation $i$. The procedure is repeated $n$ times, for $i=1,...,n$.</p>
 <p>The LOOCV estimate for the test MSE is the average of these $n$ test error estimates:</p>
 $$
@@ -13640,7 +13652,7 @@ $$
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># LeaveOneOut CV function for polynomials</span>
@@ -13678,7 +13690,7 @@ $$
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Validation set approach</span>
@@ -13702,8 +13714,8 @@ $$
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Time elapsed: 0.0261 seconds
-Time elapsed: 1.1189 seconds
+<pre>Time elapsed: 0.0270 seconds
+Time elapsed: 1.1495 seconds
 </pre>
 </div>
 </div>
@@ -13731,7 +13743,7 @@ Time elapsed: 1.1189 seconds
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Make new figure 1</span>
@@ -13757,7 +13769,7 @@ Time elapsed: 1.1189 seconds
 </aside><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">make_new_figure_1</span><span class="p">()</span>
@@ -13836,7 +13848,7 @@ $$
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 10fold CV function for polynomials</span>
@@ -13879,7 +13891,7 @@ $$
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Leave One Out CV</span>
@@ -13904,8 +13916,8 @@ $$
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Time elapsed: 1.1403 seconds
-Time elapsed: 0.3066 seconds
+<pre>Time elapsed: 1.1153 seconds
+Time elapsed: 0.3078 seconds
 </pre>
 </div>
 </div>
@@ -13933,7 +13945,7 @@ Time elapsed: 0.3066 seconds
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Figure 5.4</span>
@@ -13973,7 +13985,7 @@ Time elapsed: 0.3066 seconds
 </aside><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">make_figure_5_4</span><span class="p">()</span>
@@ -14017,15 +14029,14 @@ Time elapsed: 0.3066 seconds
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.2-The-Bootstrap">4.2 The Bootstrap<a class="anchor-link" href="#4.2-The-Bootstrap">&#182;</a></h2><p><a href="#/1"><em>go to index</em></a></p>
-
+<h2 id="4.2-The-Bootstrap">4.2 The Bootstrap<a class="anchor-link" href="#4.2-The-Bootstrap">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The bootstrap is a widely applicable and extremely powerful statistical tool that can be used to quantify the uncertainty associated with a given estimator or statistical learning method. In the specific case of linear regression, this is not particularly useful since there exist a formula for the standard errors. However, there are many models (almost all actually) for which there exists no closed for solution to the estimator variance.</p>
+<p>The bootstrap is a widely applicable and extremely powerful statistical tool that can be used to <strong>quantify the uncertainty</strong> associated with a given estimator or statistical learning method. In the specific case of linear regression, this is not particularly useful since there exist a formula for the standard errors. However, there are many models (almost all actually) for which there exists no closed for solution to the estimator variance.</p>
 <p>In pricinple, we would like to draw independent samples from the true data generating process and assessing the uncertainty of an estimator by comparing its values across the different samples. However, this is clearly unfeasible since we do not know the true data generating process.</p>
 <p>With the bootstrap, rather than repeatedly obtaining independent data sets from the population, we instead obtain distinct data sets by repeatedly sampling observations from the original data set. The power of the bootstrap lies in the fact that it can be easily applied to a wide range of statistical learning methods, including some for which a measure of variability is otherwise difficult to obtain and is not automatically output by statistical software.</p>
 
@@ -14045,7 +14056,7 @@ $$<p>where $\beta_0 = 0.6$ and $\varepsilon \sim N(0,1)$. We are now going to as
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set seed</span>
@@ -14078,7 +14089,7 @@ $$<p>where $\beta_0 = 0.6$ and $\varepsilon \sim N(0,1)$. We are now going to as
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Init Bootstrap</span>
@@ -14109,7 +14120,7 @@ $$<p>where $\beta_0 = 0.6$ and $\varepsilon \sim N(0,1)$. We are now going to as
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Print means</span>
@@ -14163,7 +14174,7 @@ Mean Boostrap   : 0.5816
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Print variances</span>
@@ -14218,7 +14229,7 @@ Std Boostrap   : 0.010812
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Figure 5.10</span>
@@ -14252,7 +14263,7 @@ Std Boostrap   : 0.010812
 </aside><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">make_figure_5_10</span><span class="p">()</span>

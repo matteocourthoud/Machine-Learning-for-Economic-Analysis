@@ -4,7 +4,7 @@
 
 Welcome to my notes for the Machine Learning for Economic Analysis course by [Damian Kozbur](https://www.econ.uzh.ch/en/people/faculty/kozbur.html) @UZH!
 
-The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. The examples heavily borrow from [*Elements of Statistical Learning*](https://hastie.su.domains/Papers/ESLII.pdf) by Hastie, Tibshirani, Friedman. Other recommended free resources are the documentation of the Python library [scikit-learn](https://scikit-learn.org/) and Bruce Hansen's [*Econometrics*](https://www.ssc.wisc.edu/~bhansen/econometrics/) book.
+The exercise sessions are entirely coded in [Python](https://www.python.org/downloads/) on Jupyter Notebooks. The examples heavily borrow from [*An Introduction to Statistical Learning*](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf) by James, Witten, Tibshirani, Friedman and its advanced version [*Elements of Statistical Learning*](https://hastie.su.domains/Papers/ESLII.pdf) by Hastie, Tibshirani, Friedman. Other recommended free resources are the documentation of the Python library [scikit-learn](https://scikit-learn.org/) and Bruce Hansen's [*Econometrics*](https://www.ssc.wisc.edu/~bhansen/econometrics/) book.
 
 Please, if you find any typos or mistakes, [open a new issue](https://help.github.com/articles/creating-an-issue/). Or even better, fork the repo and [submit a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). I am happy to share my work and I am even happier if it can be useful.
 

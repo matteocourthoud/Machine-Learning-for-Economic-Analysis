@@ -13207,13 +13207,28 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Session-9:-Post-double-Selection">Session 9: Post-double Selection<a class="anchor-link" href="#Session-9:-Post-double-Selection">&#182;</a></h1>
+<h1 id="Session-9:-Post-Double-Selection">Session 9: Post-Double Selection<a class="anchor-link" href="#Session-9:-Post-Double-Selection">&#182;</a></h1>
 </div>
 </div>
-</div></section><section>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Remove warnings</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import everything</span>
@@ -13235,29 +13250,10 @@ a.anchor-link {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/opt/homebrew/lib/python3.9/site-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
-  import pandas.util.testing as tm
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import matplotlib for graphs</span>
@@ -13279,27 +13275,11 @@ a.anchor-link {
 </div>
 </div>
 
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Remove warnings</span>
-<span class="kn">import</span> <span class="nn">warnings</span>
-<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="9.1-Frisch-Waugh-theorem">9.1 Frisch-Waugh theorem<a class="anchor-link" href="#9.1-Frisch-Waugh-theorem">&#182;</a></h2><p><a href="#/1"><em>back to index</em></a></p>
-
+<h2 id="9.1-Frisch-Waugh-theorem">9.1 Frisch-Waugh theorem<a class="anchor-link" href="#9.1-Frisch-Waugh-theorem">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13849,7 +13829,7 @@ Mean alpha Pre-test = 0.9925
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The pre-testing coefficient is much less biased than the short regression one. But it's still biased.</p>
+<p>The pre-testing coefficient is very close to the true coefficient.</p>
 <p>However, the main effect of pre-testing is on inference. With pre-testing, the distribution of the estimator is not gaussian anymore.</p>
 
 </div>
@@ -14048,6 +14028,7 @@ Mean alpha with beta=-0.90: 0.9994
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>When $\beta_0$ is "small", the distribution of the pre-testing estimator for $\alpha$ is not normal.</p>
 <p>However, the magnitue of $\beta_0$ is a relative concept. For an infinite sample size, $\beta_0$ is always going to be "big enough", in the sense that with an infinite sample size the probability fo false positives in testing $H_0: \beta_0 = 0$ is going to zero. I.e. we always select the correct model specification, the long regression.</p>
 <p>Let's have a look at the distibution of $\hat \alpha_{\text{PRE-TEST}}$ when the sample size increaes.</p>
 
@@ -14769,7 +14750,7 @@ Mean alpha with n=3000: 0.9990
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Post-double-selection-and-Machine-Learning">Post-double selection and Machine Learning<a class="anchor-link" href="#Post-double-selection-and-Machine-Learning">&#182;</a></h3>
+<h3 id="Post-double-Selection-and-Machine-Learning">Post-double Selection and Machine Learning<a class="anchor-link" href="#Post-double-Selection-and-Machine-Learning">&#182;</a></h3>
 </div>
 </div>
 </div><div class="fragment">
@@ -15464,7 +15445,7 @@ $$
 Lasso    : -8.7963
 Tree     : 1.2879
 Forest   : 2.4938
-Boosting : 0.5976
+Boosting : 0.5977
 </pre>
 </div>
 </div>
@@ -15544,7 +15525,7 @@ Boosting : 0.5976
 <pre>Ridge    : 0.6670
 Lasso    : 1.2511
 Tree     : 0.9605
-Forest   : 0.5325
+Forest   : 0.5327
 Boosting : 1.0327
 </pre>
 </div>

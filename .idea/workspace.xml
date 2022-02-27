@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="313dae71-7666-4daa-94a8-8e6ca09733db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/img/01_regression_115_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_121_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_129_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_132_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_142_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_149_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_155_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_163_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_166_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_169_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_177_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_24_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_30_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_35_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_44_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_49_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_51_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_53_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01_regression_80_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/02_iv_27_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/02_iv_42_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/02_iv_8_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_105_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_111_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_114_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_119_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_11_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_128_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_134_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_38_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_59_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_70_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_84_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_89_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03_nonparametric_99_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/04_crossvalidation_14_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/04_crossvalidation_25_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/04_crossvalidation_36_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/04_crossvalidation_51_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_101_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_109_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_118_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_132_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_20_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_32_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_41_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_45_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_53_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_63_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_77_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05_regularization_87_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_104_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_111_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_114_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_123_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_134_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_13_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_17_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_22_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_48_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_51_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_58_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_75_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_81_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07_trees_97_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/08_neuralnets_57_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/08_neuralnets_67_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/08_neuralnets_77_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/09_postdoubleselection_37_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/09_postdoubleselection_42_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/09_postdoubleselection_45_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/09_postdoubleselection_49_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/09_postdoubleselection_63_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/09_postdoubleselection_66_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/09_postdoubleselection_70_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/09_postdoubleselection_74_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_115_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_121_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_129_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_132_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_142_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_150_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_156_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_164_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_167_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_170_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_178_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_24_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_30_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_35_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_44_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_49_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_51_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_53_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-regression_80_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_107_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_20_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_39_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_50_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_62_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_66_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_72_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_76_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_79_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_82_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_86_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_89_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10-unsupervised_96_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_107_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_20_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_39_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_50_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_62_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_66_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_72_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_76_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_79_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_82_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_86_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_89_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10_unsupervised_96_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2-iv_28_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2-iv_43_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2-iv_9_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_100_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_106_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_112_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_115_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_120_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_129_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_12_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_135_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_39_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_60_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_71_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_85_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-nonparametric_90_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4-crossvalidation_15_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4-crossvalidation_26_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4-crossvalidation_37_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4-crossvalidation_52_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_101_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_109_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_118_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_132_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_20_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_32_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_41_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_45_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_53_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_63_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_77_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-regularization_87_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_104_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_111_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_114_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_123_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_134_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_13_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_17_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_22_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_48_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_51_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_58_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_75_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_81_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7-trees_97_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8-neuralnets_57_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8-neuralnets_67_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8-neuralnets_77_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9-postdoubleselection_37_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9-postdoubleselection_42_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9-postdoubleselection_45_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9-postdoubleselection_49_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9-postdoubleselection_63_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9-postdoubleselection_66_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9-postdoubleselection_70_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9-postdoubleselection_74_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/02_iv_files/02_iv_27_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/02_iv_files/02_iv_42_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/02_iv_files/02_iv_8_0.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="243KtsfUUK83JwGOTzfVoGe4RtO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="313dae71-7666-4daa-94a8-8e6ca09733db" name="Changes" comment="" />
+      <created>1642854050585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642854050585</updated>
+      <workItem from="1642854109570" duration="99000" />
+    </task>
+    <servers />
+  </component>
+</project>

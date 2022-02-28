@@ -183,9 +183,7 @@ def make_new_figure_4(linkages, titles):
         
 def get_cov_ellipse(distr, nstd, **kwargs):
     """
-    Return a matplotlib Ellipse patch representing the covariance matrix
-    cov centred at centre and scaled by the factor nstd.
-
+    Return a matplotlib Ellipse patch representing a standard distribution around the mean
     """
 
     # Find and sort eigenvalues and eigenvectors into descending order
